@@ -16,6 +16,7 @@ pip install PyWavelets
 ```
 ## Introduction
 Now, we integrate the Differential Correction in Wavelet domain (DCW) into the EDM base model.
+
 (1) Import the required packages.
 ```python
 from pytorch_wavelets import DWTForward, DWTInverse
