@@ -59,7 +59,7 @@ Here, we provide the core code for FLUX-DCW. More specifically, we only need to 
 
 (1) First, we assume that you are already able to directly use [FLUX](https://huggingface.co/black-forest-labs/FLUX.1-dev) for image generation. 
 
-(2) Then, you need to install the wavelet transform-related libraries via the commands: pip install pytorch_wavelets and pip install PyWavelets. 
+(2) Then, please install the wavelet transform-related libraries via the commands: pip install pytorch_wavelets and pip install PyWavelets. 
 
 (3) Finally, you directly replace your FlowMatchEulerDiscreteScheduler with the one we provide, and pass in the parameter scaler by yourself to run it successfully.
 
