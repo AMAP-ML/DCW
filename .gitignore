@@ -1,0 +1,117 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# =====================
+# 虚拟环境
+# =====================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =====================
+# 分发 / 打包
+# =====================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+wheels/
+share/python-wheels/
+
+# =====================
+# 测试 / 覆盖率
+# =====================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+nosetests.xml
+test-results/
+
+# =====================
+# 文档
+# =====================
+docs/_build/
+site/
+
+# =====================
+# IDE / 编辑器
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+*.ipynb
+
+# =====================
+# 类型检查
+# =====================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# =====================
+# 日志 / 调试
+# =====================
+*.log
+logs/
+*.out
+
+# =====================
+# 环境变量
+# =====================
+.env
+.env.*
+*.env
+
+# =====================
+# 数据文件（可选）
+# =====================
+*.csv
+*.tsv
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# =====================
+# 模型权重（可选）
+# =====================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# =====================
+# 系统文件
+# =====================
+Thumbs.db
+Desktop.ini
