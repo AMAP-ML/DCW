@@ -5,7 +5,7 @@ Diffusion Probabilistic Models have demonstrated remarkable performance across a
 ## Overview
 ![framework](assets/framework.png)
 
-This is the codebase for our paper **Elucidating the SNR-t Bias of Diffusion Probabilistic Models (CVPR 2026)**
+This is the codebase for our paper **Elucidating the SNR-t Bias of Diffusion Probabilistic Models (CVPR 2026)**.
 The repository is heavily based on [EDM](https://github.com/NVlabs/edm). For environment setup, datasets preparation, pre-trained models loading, and fid calculation, please refer to the official EDM code [repository](https://github.com/NVlabs/edm). 
 
 ## Requirements
