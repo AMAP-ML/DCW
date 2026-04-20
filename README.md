@@ -64,7 +64,7 @@ Here, we provide the core code for FLUX-DCW. More specifically, we only need to 
 
 (3) Finally, you directly replace your FlowMatchEulerDiscreteScheduler with the one we provide, and pass in the parameter scaler by yourself to run it successfully.
 
-# Contact
+## Contact
 If you have any questions, feel free to contact the first author. (Email: `mengyu23@sjtu.edu.cn`)
 
 ## Citation
