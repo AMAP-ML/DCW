@@ -1,4 +1,4 @@
-# Elucidating the SNR-t Bias of Diffusion Probabilistic Models
+# [CVPR 2026] Elucidating the SNR-t Bias of Diffusion Probabilistic Models
 
 Diffusion Probabilistic Models have demonstrated remarkable performance across a wide range of generative tasks. However, we have observed that these models often suffer from a Signal-to-Noise Ratio–timestep (SNR-t) bias. This bias refers to the misalignment between the SNR of the denoising sample and its corresponding timestep during the inference phase. Specifically, during training, the SNR of a sample is strictly coupled with its timestep. However, this correspondence is disrupted during inference, leading to error accumulation and impairing the generation quality. We provide comprehensive empirical evidence and theoretical analysis to substantiate this phenomenon and propose a simple yet effective differential correction method to mitigate the SNR-t bias. Recognizing that diffusion models typically reconstruct low-frequency components before focusing on high-frequency details during the reverse denoising process, we decompose samples into various frequency components and apply differential correction to each component individually. Extensive experiments show that our approach significantly improves the generation quality of various diffusion models (IDDPM, ADM, DDIM, A-DPM, EA-DPM, EDM, PFGM++, and FLUX) on datasets of various resolutions with negligible computational overhead.
 
@@ -66,3 +66,13 @@ Here, we provide the core code for FLUX-DCW. More specifically, we only need to 
 
 # Contact
 If you have any questions, feel free to contact the first author. (Email: `mengyu23@sjtu.edu.cn`)
+
+## Citation
+```
+@article{yu2026eluci,
+  title={Elucidating the SNR-t Bias of Diffusion Probabilistic Models},
+  author={Meng Yu and Lei Sun and Jianhao Zeng and Xiangxiang Chu and Kun Zhan},
+  journal={arXiv preprint arXiv:2604.16044},
+  year={2026}
+}
+```
